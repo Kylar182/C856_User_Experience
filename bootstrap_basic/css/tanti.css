@@ -228,8 +228,8 @@ section.dine .section-heading p {
   margin-bottom: 0;
 }
 
-.food-images {
-  padding: 0px 0px 0px 0px;
+.food-image {
+  padding: 0px 0px 25px 0px;
 }
 
 section.dine .food-container,
@@ -243,14 +243,26 @@ section.dine .feature-item {
     margin-bottom: 0;
   }
 
-  .food-images {
-    padding: 50px 0px 0px 0px;
+  section.dine .feature-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .food-image {
+    padding: 0px 0px 0px 0px;
+  }
+
+  section.dine .feature-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
 section.dine .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -290,6 +302,30 @@ section.roam .roam-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
+}
+
+.icon .fas, .fad, .fab, .fal, .far {
+  font-size: 1em;
+  color: white !important;
+}
+
+section.contact-item h3 {
+  font-size: 25px;
+}
+
+.contact-item i.header {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, #5CC96C, #307F3C);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p.faq {
+  font-size: 1em;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.75);
 }
 
 @media (min-width: 768px) {
